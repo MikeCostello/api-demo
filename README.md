@@ -17,7 +17,7 @@ This project is a partial implementation of a Leprechaun social network. It is p
 * Provide consumable error responses
 * Write tests for failures & successes
 
-** embedding, sorting, filtering, field limiting, pagination*
+_*embedding, sorting, filtering, field limiting, pagination_
 
 ## Getting Started
 
@@ -39,7 +39,7 @@ The HTTPS server uses a self signed certificate. While CA and domain mismatch wa
 
 ### Testing
 
-The generated documentation itself can be used directly to explore the API, alternatively a [collection](https://raw.githubusercontent.com/MikeCostello/apit-demo/master/api-demo.json.postman_collection) of [Postman](https://www.getpostman.com) calls can be imported. The **first call should always** be to ```Clients/login``` to retrieve an auth token.
+The generated documentation itself can be used directly to explore the API, alternatively a [collection](https://raw.githubusercontent.com/MikeCostello/api-demo/master/api-demo.json.postman_collection) of [Postman](https://www.getpostman.com) calls can be imported. The **first call should always** be to ```Clients/login``` to retrieve an auth token.
 
 To run unit tests:  
 ```npm test```
