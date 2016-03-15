@@ -1,0 +1,39 @@
+{
+  "name": "Comment",
+  "base": "DemoPersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": false
+  },
+  "hidden": [
+    "updatedAt"
+  ],
+  "mixins": {
+    "TimeStamp": true
+  },
+  "properties": {
+    "message": {
+      "type": "string",
+      "required": true
+    },
+    "owner": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "post": {
+      "type": "belongsTo",
+      "model": "Post",
+      "foreignKey": ""
+    },
+    "client": {
+      "type": "belongsTo",
+      "model": "Client",
+      "foreignKey": "owner"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
