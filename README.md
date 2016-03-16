@@ -1,6 +1,6 @@
 # RESTful API Demo
 
-This project is a partial implementation of a Leprechaun social network. It is purely designed as jumping off point for discussions on a few opinionated best practices in API design and a practice application of those practices.
+This project is a partial implementation of a Leprechaun social network. It is purely designed as jumping off point for discussions on a few opinionated best practices in API design and a practical application of those practices.
 
 * Version your API
 * Always use SSL (Leprechauns are very secretive)
